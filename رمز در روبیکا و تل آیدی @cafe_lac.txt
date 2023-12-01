@@ -1,0 +1,745 @@
+Map Name: <size=85> (<color=red>SeR</color><color=cyan>vEr</color><color=yellow>LaC5</color>)    +(cash)    (role)    <color=yellow>(kmh)</color>    <color=cyan>(gear)</color>    <color=purple>(fuel)</color>    <color=red>(dmg)</color> </size>
+Map Type:1
+Holo Sign:0.0, 0.0, 0.0*
+Camera Pos:71.70, 125.07, 306.42:19.23, 224.13, 0.00
+Max Vehicle Count: 12
+Fuel Consume Rate: 1
+Delete Idle Vehicle: 60
+Health Regeneration: true
+Hide Names: false
+Allow Respawn: false
+Voice-Chat: disabled
+Vote For Role: disabled
+Role-play: disabled
+Approve On Register: true
+Roles List:<color=yellow>[TAXI]</color>,<color=#C7C>[WORKER]</color>,<color=green>[DOCTOR]</color>,<color=orange>[MECHANIC]</color>,<color=blue>[POLICE]</color>,<color=red>[ADMIN]</color>,<color=purple>[DOZD]</color>,<color=black>[TERYAKY]</color>,<color=lightblue>[POLICEFBI]</color>,
+Trigger_Box_Editor:16.39,19.35,15.79:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=BUILDER}|ifcondition{role=police}|ifcondition{role=admin}|ifcondition{role=taxi}|ifcondition{role=doctor}|ifcondition{role=mechanic}|ifcondition{role=worker}|outro{by by haker}|chat{<color=red>kick hacker ✓</color>}|cooldown{6}
+Trigger_Box_Editor:16.39,16.35,15.79:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|weapon{empty}|inventory{add*L1*1}|deactivate{}
+Trigger_Box_Editor:16.39,13.35,15.79:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;weapon_uzi>0&&role!=admin&&inventory;L1=1}|outro{by by hacker}|chat{<color=red>kick hacker ✓</color>}|cooldown{6}
+Trigger_Box_Editor:16.39,10.35,15.79:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=*2525#}|inventory{add*i8C029*1}|chat{✓}|deactivate{}
+Trigger_Box_Editor:16.39,7.35,15.79:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=admin&&inventory;i8C029!=1}|outro{by by hacker}|chat{<color=red>kick hacker ✓</color>}|cooldown{6}
+Trigger_Box_Editor:16.39,4.35,15.79:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{speed>405&&isinvehicle!=true&&isragdoll=false}|outro{by by hacker}|chat{<color=red>kick hacker ✓</color>}|cooldown{6}
+UI_Scalable_Editor:-45.62,21.94,10.47:0.00,180.00,0.00:20.50,20.50,1.00:<size=300><color=green>Bank
+TV_LED_Editor:-45.70,17.70,10.40:0.00,180.00,0.00:6.00,6.00,1.00:<size=166><color=green>Bank
+Block_Scalable_Editor:81.28,11.77,-55.29:0.00,0.00,0.00:3.00,1.00,3.00:color{0.00,0.00,0.00}
+Block_Scalable_Editor:83.68,4.97,-55.24:270.00,88.00,0.00:4.90,1.00,14.30:color{0.00,0.00,0.00}
+Block_Scalable_Editor:79.78,4.97,-55.39:270.00,88.00,0.00:4.90,1.00,14.30:color{0.00,0.00,0.00}
+Block_Scalable_Editor:81.18,4.97,-52.89:90.00,177.00,0.00:3.00,1.00,14.30:color{0.00,0.00,0.00}
+Block_Scalable_Editor:81.28,4.97,-56.79:90.00,178.00,0.00:3.00,1.00,14.30:color{0.00,0.00,0.00}
+Trigger_Box_Editor:81.29,10.51,-55.31:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|teleport{-360,2,117.7*0*true}
+Trigger_Box_Editor:81.29,4.61,-55.31:0.00,0.00,0.00:3.00,14.40,3.00:mode{stay}|transform{81.3,-0.8,-55.3*81.3,8.1,-55.3*4}
+Block_Scalable_Editor:81.28,-0.83,-55.29:0.00,0.00,0.00:3.00,1.00,3.00:color{0.00,0.00,0.00}
+Trigger_Box_Editor:81.29,1.21,-55.31:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|teleport{0.2,1.1,-1.2*0*true}|deactivate{}
+Block_Scalable_Editor:-194.73,-0.85,270.30:0.00,0.00,0.00:619.40,1.00,6.10:color{1.00,1.00,1.00} material{Road_Street_4k,0.01}
+Block_Scalable_Editor:-726.01,-0.85,451.96:0.00,180.00,0.00:93.00,1.00,233.90:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-809.31,-0.90,223.77:0.00,0.00,0.00:247.00,1.00,88.90:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-532.89,-0.90,270.56:0.00,0.00,0.00:87.40,1.00,1.60:color{0.59,0.59,0.59} material{Grass_Field,0.03}
+Block_Scalable_Editor:-561.39,-0.85,268.96:0.00,0.00,0.00:117.40,1.00,1.60:color{1.00,1.00,1.00} material{Road_Street_4k,0.01}
+Block_Scalable_Editor:-581.04,0.10,335.77:0.00,270.00,180.00:10.00,1.60,194.55:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:-582.14,0.10,341.52:0.00,270.00,180.00:4.70,1.60,194.50:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:-606.29,-0.90,269.03:0.00,5.00,0.00:14.50,1.00,2.50:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Metal_Railing_Editor:-594.71,-0.33,269.56:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Block_Scalable_Editor:-599.79,-0.90,268.53:0.00,0.00,0.00:14.50,1.00,2.50:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-678.68,-0.90,295.54:0.00,70.00,0.00:92.50,1.00,26.40:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-675.18,-0.90,295.54:0.00,60.00,0.00:92.50,1.00,26.40:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-656.70,-0.90,276.22:0.00,45.00,0.00:92.50,1.00,26.40:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-656.70,-0.90,276.22:0.00,35.00,0.00:92.50,1.00,26.40:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-642.20,-0.90,267.22:0.00,25.00,0.00:92.50,1.00,26.40:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-625.20,-0.90,261.22:0.00,15.00,0.00:92.50,1.00,26.40:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-766.01,-0.90,292.71:0.00,90.00,0.00:93.00,1.00,175.40:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Block_Scalable_Editor:-729.81,-0.90,223.77:0.00,0.00,0.00:247.00,1.00,88.90:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Trigger_Box_Editor:16.39,1.35,15.79:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{speed>405&&isinvehicle=true}|outro{by by hacker}|chat{<color=red>kick hacker ✓</color>}|cooldown{6}
+Trigger_Box_Editor:-359.78,7.10,117.88:0.00,0.00,0.00:16.50,10.00,6.00:mode{enter}|teleport{-443.3,2,116.9*27}
+Trigger_Box_Editor:89.36,3.09,301.39:0.00,0.00,0.00:1.40,3.00,1.20:mode{stay}|transform{89.4,-3.7,301.9*89.4,4.6,301.9*4}
+TV_LED_Editor:0.12,4.86,9.74:15.00,180.00,0.00:1.20,1.40,1.40:<color=green>LAC SERVER
+Point_Light_Editor:0.00,11.50,2.00:0.00,0.00,0.00:3.00,1.00,3.00:color{1.00,1.00,1.00} light{45,1,1,1}
+Trigger_Box_Editor:-443.22,1.05,117.23:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{role=dozd}|tip{سلامتی ازادیت}
+Trigger_Box_Editor:41.29,1.56,77.96:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|inventory{add*cash*+25}|deactivate{}
+Trigger_Box_Editor:-7.91,9.83,8.45:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=2020}|player{role*policefbi}|chat{>/color<رول.رییس.پلیس.گرفت>color=cyan<}
+Trigger_Box_Editor:11.29,8.70,2.05:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=888}|player{role*teryaky}|chat{>/color<رول.مواد.فروش.گرفت>color=black<}
+Trigger_Box_Editor:10.88,2.19,1.95:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|player{role*TERYAKY}|tip{>/color<رول.مواد.فروش.گرفت>color=Black<}|draw{halo}|draw{halo3}
+Blackboard_Editor:11.73,4.09,2.03:0.00,90.00,0.00:1.00,1.00,1.00:<color=red>role</color>|<color=black>TERYAKY</color>|<color=yellow>888</color>
+Trigger_Box_Editor:10.53,14.49,-4.90:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=TERYAKY}|inventory{add*cash*+50}|tip{>/color<مواد.فروختی>color=Black<}|cooldown{60}
+Trigger_Box_Editor:-832.17,2.13,362.37:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|vehicle{repair}|ifcondition{inventory;cash>50}|inventory{add*cash*-50}| draw{wrench}|cooldown{5}|tip{<color=red>-50$</color>}
+Trigger_Box_Editor:-504.50,2.50,336.50:0.00,90.00,0.00:11.70,5.80,0.50:mode{enter}|ifcondition{role=TERYAKY}|chat{مواد فروش وارد پارک شد!}
+Trigger_Box_Editor:-679.00,2.50,336.00:0.00,75.00,0.00:11.70,5.80,0.50:mode{enter}|ifcondition{role=TERYAKY}|chat{مواد فروش وارد پارک شد!}
+Trigger_Box_Editor:-583.49,2.15,405.10:0.00,0.00,0.00:11.70,5.80,0.50:mode{enter}|ifcondition{role=TERYAKY}|chat{مواد فروش وارد پارک شد!}
+Trigger_Box_Editor:-583.49,2.15,269.60:0.00,0.00,0.00:11.70,5.80,0.50:mode{enter}|ifcondition{role=TERYAKY}|chat{مواد فروش وارد پارک شد!}
+Trigger_Box_Editor:-523.25,1.83,185.74:0.00,0.00,0.00:32.50,2.60,3.70:mode{enter}|tip{}
+Building18_Editor:-839.35,0.00,290.85:0.00,344.00,0.00:0.80,0.80,0.80: 
+Building2_Editor:-808.92,0.00,306.91:0.00,45.00,0.00:1.00,1.00,1.00: 
+Building18_Editor:-807.14,-14.90,365.86:0.00,0.00,0.00:1.50,0.10,1.00: 
+Garage_Editor:-814.48,-0.41,351.54:0.00,90.00,0.00:1.00,1.00,1.00: 
+Parking_Editor:-638.67,1.28,486.79:0.00,270.00,0.00:1.00,1.00,0.80: 
+Block_Scalable_Editor:-272.36,-0.85,232.56:0.00,0.00,0.00:695.50,1.00,71.20:color{1.00,1.00,1.00} material{Road_Street_4k,0.01}
+Trigger_Box_Editor:-63.91,22.74,51.76:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon1}|weapon{1}|weapon{refill*1}
+Trigger_Box_Editor:65.79,39.23,88.45:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon3}|weapon{3}|weapon{refill*3}
+Trigger_Box_Editor:-77.14,0.85,87.47:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon5}|weapon{5}|weapon{refill*5}
+Trigger_Box_Editor:-254.22,1.65,361.39:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon1}|weapon{1}|weapon{refill*1}|cooldown{60}
+Trigger_Box_Editor:-527.98,2.75,373.31:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon2}|weapon{2}|weapon{refill*2}|cooldown{60}
+Blocker_Editor:-504.43,0.12,339.13:0.00,0.00,0.00:1.00,1.00,1.00: 
+Blocker_Editor:-504.43,0.12,334.38:0.00,0.00,0.00:1.00,1.00,1.00: 
+Blocker_Editor:-580.86,0.16,405.05:275.00,0.00,0.00:1.00,1.00,1.00: 
+Blocker_Editor:-586.36,0.16,405.05:275.00,0.00,0.00:1.00,1.00,1.00: 
+Blocker_Editor:-678.41,0.17,334.65:0.00,0.00,0.00:1.00,1.00,1.00: 
+Blocker_Editor:-679.41,0.17,338.65:0.00,0.00,0.00:1.00,1.00,1.00: 
+Blocker_Editor:-581.38,0.16,269.61:0.00,0.00,0.00:1.25,1.25,1.25: 
+Blocker_Editor:-586.13,0.16,269.61:0.00,0.00,0.00:1.25,1.25,1.25: 
+Car_Dummy_Volkswagen_Editor:-568.90,1.91,359.00:0.00,0.00,0.00:0.60,0.60,0.60:color{0.80,0.80,0.80}
+Car_Dummy_Volkswagen_Editor:-568.95,1.74,386.65:0.00,0.00,0.00:0.60,0.60,0.60:color{0.80,0.80,0.80}
+Car_Dummy_Volkswagen_Editor:-568.91,1.70,373.06:0.00,0.00,0.00:0.60,0.60,0.60:color{0.80,0.80,0.80}
+Chair_Wooden_Editor:-518.59,0.01,328.35:0.00,0.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-538.09,0.01,328.35:0.00,0.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-558.59,0.01,328.35:0.00,0.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-575.08,0.01,285.69:0.00,270.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-591.58,0.01,386.69:0.00,90.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-591.58,0.01,366.19:0.00,90.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-614.53,0.01,344.73:0.00,180.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-635.73,0.01,344.73:0.00,180.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-655.13,0.01,344.73:0.00,180.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-666.33,0.01,328.33:0.00,0.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-644.54,0.01,328.33:0.00,0.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-624.04,0.01,328.33:0.00,0.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-601.35,0.01,328.33:0.00,0.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-591.58,0.01,306.99:0.00,90.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-591.58,0.01,283.09:0.00,90.00,0.00:4.30,0.90,1.10: 
+Fancy_Chunk_Editor:-538.98,-21.00,375.77:0.00,240.00,180.00:1.00,1.00,1.00: 
+Road_Curved90_Editor:-568.83,0.06,355.40:0.00,0.00,0.00:0.20,1.00,0.20: 
+Road_Editor:-539.30,0.06,349.37:0.00,90.00,0.00:0.20,1.00,0.20: 
+Road_Editor:-568.80,0.06,374.22:0.00,180.00,0.00:0.20,1.00,0.20: 
+Road_Curved90_Editor:-562.87,0.06,399.72:0.00,90.00,0.00:0.20,1.00,0.20: 
+Road_Curved90_Editor:-516.41,0.06,349.29:0.00,270.00,0.00:0.20,1.00,0.20: 
+Road_Editor:-510.40,0.06,374.22:0.00,180.00,0.00:0.20,1.00,0.20: 
+Road_Curved90_Editor:-510.36,0.06,393.70:0.00,180.00,0.00:0.20,1.00,0.20: 
+Road_Editor:-539.92,0.06,399.70:0.00,90.00,0.00:0.20,1.00,0.20: 
+Metal_Railing_Editor:-604.71,-0.33,270.06:0.00,275.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-614.90,-0.33,272.17:0.00,285.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-625.10,-0.33,274.97:0.00,285.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-634.86,-0.33,278.57:0.00,295.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-643.86,-0.33,283.57:0.00,304.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-651.86,-0.33,289.97:0.00,312.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-659.36,-0.33,297.07:0.00,315.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-670.86,-0.33,314.57:0.00,330.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-675.36,-0.33,324.07:0.00,340.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-679.86,-0.33,347.07:0.00,10.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-678.86,-0.33,357.57:0.00,0.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-678.86,-0.33,368.07:0.00,0.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-678.86,-0.33,378.57:0.00,0.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-678.86,-0.33,389.07:0.00,0.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-594.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-599.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-678.86,-0.33,399.57:0.00,0.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-673.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-662.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-652.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-641.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-631.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-620.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-610.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-599.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-572.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-561.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-551.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-540.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-530.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-520.36,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-509.86,-0.33,405.07:0.00,270.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,400.07:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,389.57:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,379.07:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,368.57:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,358.07:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,347.57:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,326.07:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,316.57:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,306.07:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,295.57:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,285.07:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-504.36,-0.33,274.57:0.00,180.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-509.36,-0.33,269.57:0.00,90.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-519.86,-0.33,269.57:0.00,90.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-530.36,-0.33,269.57:0.00,90.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-540.86,-0.33,269.57:0.00,90.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-551.36,-0.33,269.57:0.00,90.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-561.86,-0.33,269.57:0.00,90.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-572.41,-0.33,269.57:0.00,90.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Entrance_Tire_Editor:-678.92,0.15,336.68:0.00,75.00,0.00:0.50,0.50,0.50: 
+Cylinder_Editor:-584.00,-1.80,336.60:0.00,0.00,0.00:15.00,1.00,15.00:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.10}
+Block_Scalable_Editor:-579.94,0.10,336.72:0.00,270.00,180.00:14.30,1.60,194.50:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Entrance_Tire_Editor:-583.74,0.15,405.08:0.00,0.00,0.00:0.50,0.50,0.50: 
+Entrance_Tire_Editor:-583.74,0.15,269.58:0.00,0.00,0.00:0.50,0.50,0.50: 
+Block_Scalable_Editor:-583.64,0.10,336.62:0.00,0.00,180.00:14.30,1.60,137.50:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Trigger_Box_Editor:-353.97,3.09,95.73:0.00,0.00,0.00:0.10,3.00,0.50:mode{loop}|ifcondition{role=police}|draw{weapon1}|weapon{refill*1}
+Trigger_Box_Editor:-360.63,-1.70,118.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|teleport{0.2,1.1,-1.2*0*true}|deactivate{}
+Trigger_Box_Editor:-535.30,1.88,164.72:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|tip{درحال ساخت}
+Trigger_Box_Editor:-525.00,1.20,166.80:0.00,0.00,0.00:17.10,3.00,33.50:mode{enter}|tip{پارکینگ پلیس  برای ماشین های توقیف شده}
+Blackboard_Big_Editor:-543.86,0.05,144.22:0.00,0.00,0.00:3.00,2.50,3.80:<color=green><size=100>Parking</size></color> <color=red><size=100>Police</size></color>
+Trigger_Box_Editor:-524.88,1.15,144.88:0.00,0.00,0.00:18.70,12.10,8.90:mode{stay}|transform{-524.8,7.5,144.8*-543.4,7.5,144.8*2.6*false}|sound{MechanicalMovement1*1*80}|executeplayer{}
+Cylinder_Editor:-534.28,0.54,144.02:0.00,270.00,270.00:0.30,0.40,0.30:color{0.80,0.80,0.80} material{Metal_Floor_Other,0.10}
+Block_Scalable_Editor:-534.16,-0.02,143.54:0.00,0.00,0.00:1.30,1.20,1.50:color{1.00,1.00,1.00} material{Carpet_white,0.94}
+Speed_Bump_Editor:-552.45,-11.85,144.78:90.00,175.00,0.00:0.50,0.40,1.30: 
+Speed_Bump_Editor:-514.85,-11.85,144.78:90.00,180.00,0.00:0.50,0.40,1.30: 
+Speed_Bump_Editor:-534.04,0.15,144.78:0.00,90.00,0.00:0.50,0.40,1.30: 
+Block_Scalable_Editor:-534.60,0.00,150.00:0.00,0.00,0.00:1.00,7.80,10.10:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Speed_Bump_Editor:-534.04,7.55,144.78:0.00,90.00,0.00:0.50,0.40,1.30: 
+Door_Garage1_Editor:-524.77,7.55,144.79:0.00,0.00,0.00:1.80,1.30,1.10: 
+Block_Scalable_Editor:-515.10,0.00,164.20:0.00,0.00,0.00:1.00,7.60,38.60:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-486.60,0.00,183.00:0.00,270.00,0.00:1.00,7.60,57.20:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Building2_Editor:-552.75,0.05,164.55:0.00,0.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Editor:-505.50,0.00,79.20:0.00,270.00,0.00:1.00,7.60,94.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-553.00,-0.50,130.83:0.00,180.00,0.00:1.00,8.10,104.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Ladder_Editor:-368.42,-10.80,85.86:0.00,90.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:87.12,4.74,293.57:0.00,0.00,0.00:33.00,14.50,26.20:mode{enter}|sound{ElevatorMusic*01*50}
+Trigger_Box_Editor:-443.98,1.83,182.46:0.00,0.00,0.00:32.50,2.60,3.70:mode{enter}|tip{}
+Trigger_Box_Editor:-188.66,1.15,174.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|time{day}
+Alarm_Light_Editor:-319.70,10.01,91.67:0.00,90.00,90.00:1.00,1.00,1.00: 
+Alarm_Light_Editor:-310.00,10.01,91.67:0.00,90.00,90.00:1.00,1.00,1.00: 
+Alarm_Light_Editor:-303.16,10.41,106.88:90.00,270.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-304.13,2.90,92.55:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon2}|weapon{2}|weapon{refill*2}|cooldown{600000}
+Trigger_Box_Editor:-189.67,25.68,114.39:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon5}|weapon{5}|weapon{refill*5}|cooldown{60}
+Trigger_Box_Editor:21.18,98.98,-58.13:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon4}|weapon{4}|weapon{refill*4}|cooldown{60}
+Trigger_Box_Editor:116.76,46.14,76.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon6}|weapon{6}|weapon{refill*6}|cooldown{60}
+Trigger_Box_Editor:76.85,78.29,342.63:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon1}|weapon{1}|weapon{refill*1}|cooldown{60}
+Blackboard_Editor:-396.23,0.29,156.50:0.00,180.00,0.00:0.80,0.80,1.00:<color=green><size=150>$0$</size></color>
+Blackboard_Editor:-401.03,0.29,156.50:0.00,180.00,0.00:0.80,0.80,1.00:<color=green><size=150>$1250$</size></color>
+Blackboard_Editor:-404.43,0.29,156.50:0.00,180.00,0.00:0.80,0.80,1.00:<color=green><size=150>$1200$</size></color>
+Blackboard_Editor:-408.03,0.29,156.50:0.00,180.00,0.00:0.80,0.80,1.00:<color=green><size=150>$1000$</size></color>
+Blackboard_Editor:-411.43,0.29,156.50:0.00,180.00,0.00:0.80,0.80,1.00:<color=green><size=150>$700$</size></color>
+Blackboard_Editor:-414.93,0.29,156.50:0.00,180.00,0.00:0.80,0.80,1.00:<color=red><size=600>×</size></color>
+Blackboard_Editor:-418.33,0.29,156.50:0.00,180.00,0.00:0.80,0.80,1.00:<color=green><size=150>$200$</size></color>
+Trigger_Box_Editor:-396.21,2.60,155.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{inventory;cash>0}|inventory{add*cash*-0}|draw{weapon1}|weapon{1}|weapon{refill*1}|cooldown{10000000}
+Trigger_Box_Editor:-401.11,2.60,155.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{inventory;cash>1250}|inventory{add*cash*-1250}|draw{weapon3}|weapon{3}|weapon{refill*3}
+Trigger_Box_Editor:-404.51,2.60,155.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{inventory;cash>1200}|inventory{add*cash*-1200}|draw{weapon2}|weapon{2}|weapon{refill*2}
+Trigger_Box_Editor:-408.01,2.60,155.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{inventory;cash>1000}|inventory{add*cash*-1000}|draw{weapon4}|weapon{4}|weapon{refill*4}
+Trigger_Box_Editor:-411.51,2.60,155.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{inventory;cash>700}|inventory{add*cash*-700}|draw{weapon5}|weapon{5}|weapon{refill*5}
+Trigger_Box_Editor:-414.91,2.60,155.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon6}|tip{>/color<گان.یوزی.از.این.سرور.حذف.شده.است>color=red<}
+Trigger_Box_Editor:-418.31,2.60,155.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{inventory;cash>200}|inventory{add*cash*-200}|draw{weapon1}|weapon{1}|weapon{refill*1}
+Block_Scalable_Editor:-404.96,1.90,155.35:0.00,0.00,0.00:31.60,0.20,3.30:color{0.00,0.27,0.00} material{Asphalt_Closeup_Gray,0.32}
+Block_Scalable_Editor:-404.96,-0.70,155.35:0.00,0.00,0.00:30.60,2.70,2.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip,0.25}
+Trigger_Box_Editor:-359.38,3.75,109.78:0.00,0.00,0.00:17.10,30.50,24.70:mode{stay}|weapon{0}
+Chair_Wooden_Editor:-354.13,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-352.71,2.14,120.69:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:-367.17,2.03,119.29:0.00,139.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-369.29,0.11,129.94:0.00,90.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-369.29,0.11,133.74:0.00,90.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-369.29,0.11,137.54:0.00,90.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-369.29,0.11,89.94:0.00,90.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-369.29,0.11,86.14:0.00,90.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-369.29,0.11,82.34:0.00,90.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-396.50,1.30,110.00:0.00,0.00,0.00:51.80,3.00,57.00:mode{stay}|ifcondition{role=dozd}|chat{>/color<هشدار.به.تمامی.واحد.ها.دزد.در.پاسگاه.است>color=red<}|cooldown{1}
+Block_Scalable_Editor:-366.09,-4.30,85.80:0.00,0.00,0.00:3.10,8.10,11.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Trigger_Box_Editor:-359.54,2.99,100.08:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{role=dozd}|chat{>/color<خطر.درحال.دزدیدن.گان.های.پاسگاه>color=red<}|cooldown{1}
+Trigger_Box_Editor:-443.86,1.83,130.22:0.00,0.00,0.00:25.70,3.10,101.20:mode{enter}|tip{>/color<در.سر.تا.سر.این.مسیر.پارک.ممنوع.است>color=red<}
+Trigger_Box_Editor:-7.91,12.73,-4.95:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=admin}|vehicle{repair}|cooldown{1}
+Trigger_Box_Editor:-356.67,3.09,101.73:0.00,0.00,0.00:0.10,3.00,0.50:mode{enter}|ifcondition{role=police}|draw{weapon4}|weapon{4}|weapon{refill*4}
+Trigger_Box_Editor:-353.97,3.09,99.43:0.00,0.00,0.00:0.10,3.00,0.50:mode{enter}|ifcondition{role=police}|draw{weapon1}|weapon{1}|weapon{refill*1}
+Trigger_Box_Editor:-353.97,3.09,101.63:0.00,0.00,0.00:0.10,3.00,0.50:mode{enter}|ifcondition{role=police}|draw{weapon2}|weapon{2}|weapon{refill*2}
+Block_Scalable_Editor:-427.88,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-419.47,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-410.97,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-403.07,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-393.67,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-385.07,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-369.47,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-377.37,-0.80,133.09:0.00,0.00,0.00:1.00,1.00,13.00:color{1.00,1.00,1.00}
+UI_Scalable_Editor:-368.59,15.88,109.66:0.00,90.00,0.00:15.50,14.40,1.00:<size=200>police department 
+Block_Scalable_Editor:-368.06,15.86,109.67:0.00,0.00,0.00:0.90,10.50,20.00:color{0.00,0.00,1.00}
+Block_Scalable_Editor:-398.74,-0.90,110.08:0.00,0.00,0.00:60.50,1.00,60.00:color{1.00,1.00,1.00} material{Asphalt_Closeup_Gray,0.25}
+Building2_Editor:-349.80,0.90,109.83:0.00,180.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Editor:-358.70,1.79,103.20:0.00,0.00,0.00:13.40,2.50,1.00:color{0.60,0.60,0.60} material{Marble_Tiles_Wide,0.25}
+Block_Scalable_Editor:-358.70,4.29,103.20:0.00,0.00,0.00:13.40,0.30,1.00:color{0.00,0.40,1.00} material{Marble_Tiles_Wide,0.25}
+Glass_Scalable_Editor:-358.71,4.59,103.23:0.00,0.00,0.00:13.30,2.50,1.00:color{0.37,0.43,0.50}
+UI_Scalable_Editor:-358.71,1.08,103.80:0.00,180.00,0.00:6.00,6.00,1.00:<SIZE=200>POLICE
+Metal_Railing_Editor:-365.98,1.19,114.74:0.00,90.00,0.00:0.40,2.30,0.50:color{0.00,0.00,0.00}
+Metal_Railing_Editor:-361.98,1.19,114.74:0.00,90.00,0.00:0.40,2.30,0.50:color{0.00,0.00,0.00}
+Metal_Railing_Editor:-357.98,1.19,114.74:0.00,90.00,0.00:0.40,2.30,0.50:color{0.00,0.00,0.00}
+Metal_Railing_Editor:-353.88,1.19,114.74:0.00,90.00,0.00:0.40,2.30,0.50:color{0.87,0.00,0.00}
+Wooden_Plank_Editor:-359.98,2.89,120.51:0.00,90.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Editor:-367.53,3.72,116.73:0.00,0.00,0.00:1.10,0.10,2.50:color{0.59,0.60,0.60}
+Bowl_Editor:-367.43,3.82,117.08:0.00,0.00,0.00:1.00,1.00,1.00:color{0.30,0.30,0.30}
+Trigger_Box_Editor:-353.64,2.99,109.36:0.00,0.00,0.00:3.00,3.00,3.00:mode{stay}|transform{-353.9,1.2,114.7*-350.1,1.2,114.7*2*false}|executeplayer{}|draw{key}
+Trigger_Box_Editor:10.63,1.99,5.36:0.00,0.00,0.00:1.00,3.00,1.00:mode{stay}|mode{enter}|tip{راهنمای استفاده از کد های تلفن 1-اگر دکتر با شماره تلفن 2 تماس بگیرد می تواند کسی ک مرده را زنده کند دکتر باید بالا سر کسی که مرده برود و شماره تلفن 2 را بگیرد تا مرده زنده شود همچنین دکتر میتواند خود را با کد /heal زنده کند توجه که کد /heal و شماره تلفن 2 فقط برای رول دکتر جواب میدهد2- مکانیک با گرفتن شماره تلفن 5 میتواند ماشین ها را تعمیر کند}|draw{halo1}
+Trigger_Box_Editor:-7.91,9.83,-4.95:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=mechanic}|ifcondition{dial=5}|vehicle{repair}|cooldown{20}
+Blackboard_Editor:-11.30,6.00,-4.41:0.00,270.00,0.00:1.00,1.00,1.00:<color=red>kod</color>                 <color=orange>dastor</color>|5
+Trigger_Box_Editor:-10.91,9.83,-4.95:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=555}|player{role*mechanic}|chat{>/color<رول.مکانیک.گرفت>color=orange<}
+Blackboard_Editor:-11.30,3.90,-4.41:0.00,270.00,0.00:1.00,1.00,1.00:<color=red>role</color>                 <color=orange>mechanic</color>|555
+Trigger_Box_Editor:-9.98,2.19,-4.46:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|player{role*mechanic}|tip{>/color<رول.مکانیک.گرفت>color=orange<}|draw{halo3}|draw{halo3}|draw{halo3}
+Blackboard_Editor:11.73,4.09,5.23:0.00,90.00,0.00:1.00,1.00,1.00:<color=green>guide</color>|<color=red>Help</color>|<color=yellow>Phone codes</color>
+Ladder_Editor:138.22,44.49,35.44:0.00,0.00,0.00:1.00,1.50,1.00: 
+Block_Scalable_Editor:149.70,44.90,55.42:0.00,0.00,0.00:9.20,0.90,40.20:color{1.00,1.00,1.00} material{Asphalt_Closeup_Gray,0.26}
+Building13_Editor:-248.01,-2.15,104.11:0.00,90.00,0.00:1.00,1.00,1.00: 
+UI_Scalable_Editor:-1.51,15.82,13.87:0.00,180.00,0.00:32.90,7.40,240.70: 
+Ladder_Editor:15.19,24.71,-30.09:0.00,180.00,0.00:1.00,1.40,1.00: 
+Ladder_Editor:-6.74,50.79,9.80:0.00,180.00,0.00:1.00,2.70,1.00: 
+Metal_Railing_Editor:-13.78,98.66,8.83:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:0.22,98.66,8.83:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:12.22,98.66,8.83:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Soccer_Ball_Editor:-20.64,8.43,463.68:319.94,178.70,325.62:100.00,100.00,100.00: 
+Blocker_Editor:-10.37,0.06,26.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Trigger_Box_Editor:-26.95,1.43,-2.83:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|player{respawntimer*30}
+Trigger_Box_Editor:10.35,2.19,8.82:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|chat{/reflection 0}|draw{halo}
+Building2_Editor:0.20,0.00,-8.30:0.00,270.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-9.98,2.19,8.44:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|player{role*police}|tip{>/color<رول.پلیس.گرفت>color=Blue<}|draw{halo}
+Trigger_Box_Editor:-9.98,2.19,5.14:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|player{role*doctor}|tip{>/color<رول.دکتر.گرفت>color=green<}|draw{halo2}
+Trigger_Box_Editor:-9.98,2.19,1.94:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|player{role*taxi}|tip{>/color<رول.تاکسی.گرفت>color=yellow<}|draw{halo3}
+Blackboard_Editor:-11.30,3.90,8.39:0.00,270.00,0.00:1.00,1.00,1.00:<color=red>role</color>                 <color=blue>police</color>|110
+Blackboard_Editor:-11.30,3.90,1.99:0.00,270.00,0.00:1.00,1.00,1.00:<color=red>role</color>                 <color=yellow>taxi</color>|123
+Trigger_Box_Editor:-10.91,9.83,8.45:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=110}|player{role*police}|chat{>/color<رول.پلیس.گرفت>color=Blue<}
+Trigger_Box_Editor:-10.91,9.83,1.55:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=123}|player{role*taxi}|chat{>/color<رول.تاکسی.گرفت>color=yellow<}
+Building7_Editor:46.65,-0.09,-24.50:0.00,0.00,0.00:1.00,1.00,1.00: 
+Building7_Editor:-47.50,-0.09,-24.50:0.00,0.00,0.00:1.00,1.00,1.00: 
+Billboard_Double_Editor:-35.22,0.51,88.42:0.00,180.00,0.00:1.00,1.00,1.00: 
+Billboard_Double_Editor:44.78,0.51,88.42:0.00,0.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-9.98,2.19,-1.26:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|player{role*dozd}|tip{>/color<رول.دزد.گرفت>color=purple<}|draw{halo1}
+Blackboard_Editor:-11.30,3.90,-1.21:0.00,270.00,0.00:1.00,1.00,1.00:<color=red>role</color>                 <color=purple>worker</color>|111
+Blocker_Editor:-10.37,0.06,14.83:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:-10.37,0.06,18.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:-10.37,0.06,22.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:-7.17,0.06,26.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:-3.57,0.06,26.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:-0.17,0.06,26.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:3.33,0.06,26.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:6.63,0.06,26.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:9.73,0.06,26.73:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:9.73,0.06,23.03:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:9.73,0.06,18.23:0.00,0.00,0.00:1.50,1.50,1.50: 
+Blocker_Editor:9.73,0.06,14.13:0.00,0.00,0.00:1.50,1.50,1.50: 
+Building1_Editor:-78.34,0.01,33.19:0.00,0.00,0.00:1.00,1.00,1.00: 
+Building12_Editor:-126.37,1.31,111.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Ladder_Editor:-72.74,-2.90,13.42:0.00,270.00,0.00:1.00,1.10,1.00: 
+Hospital_Editor:129.86,0.41,55.34:0.00,0.00,0.00:1.00,1.00,1.00: 
+Building17_Editor:99.11,0.00,-12.39:0.00,0.00,0.00:1.00,1.00,1.00: 
+Parking_Editor:124.28,0.31,191.04:0.00,270.00,0.00:1.00,1.00,1.00: 
+Soccer_Map_Editor:-20.34,-2.19,463.97:0.00,270.00,0.00:1.30,1.30,1.30: 
+Block_Scalable_Editor:-77.85,-0.90,82.12:0.00,0.00,0.00:22.50,1.00,42.50:color{1.00,1.00,1.00} material{Marble_Tiles_Cream,0.04}
+Trigger_Box_Editor:-10.91,9.83,-1.95:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=111}|player{role*dozd}|chat{>/color<رول.دزد.گرفت>color=purple<}
+Building13_Editor:-296.76,-2.15,333.91:0.00,90.00,0.00:1.00,1.00,1.00: 
+Building13_Editor:-411.34,-2.15,333.96:0.00,90.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Editor:16.39,26.64,-28.39:0.00,0.00,0.00:6.70,1.00,4.70:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Ladder_Editor:10.69,-0.99,-29.59:0.00,270.00,0.00:1.00,1.50,1.00: 
+Metal_Railing_Editor:26.22,50.16,8.83:20.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:37.22,46.16,8.83:20.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:48.42,42.06,8.83:20.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:59.62,37.96,8.83:20.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:75.72,34.66,8.83:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:64.22,31.66,8.83:330.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:53.72,25.66,8.83:330.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:42.72,21.66,8.83:350.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Trigger_Box_Editor:-10.91,9.83,4.85:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=115}|player{role*doctor}|chat{>/color<رول.دکتر.گرفت>color=green<}
+Trigger_Box_Editor:-7.91,9.83,4.85:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=2}|chat{/heal}
+Blackboard_Editor:-11.30,3.90,5.19:0.00,270.00,0.00:1.00,1.00,1.00:<color=red>role</color>                 <color=green>doctor</color>|115
+Blackboard_Editor:-11.30,6.00,5.19:0.00,270.00,0.00:1.00,1.00,1.00:<color=red>kod</color>                 <color=green>dastor</color>|2
+Metal_Railing_Editor:73.16,98.66,11.86:0.00,90.00,90.00:1.00,1.00,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:85.10,98.66,13.32:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:97.05,98.66,13.32:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:109.05,98.66,13.32:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:123.75,96.56,21.82:340.00,180.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:123.75,92.46,33.12:340.00,180.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:123.75,88.36,44.37:340.00,180.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:123.75,84.26,55.62:340.00,180.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:123.75,80.16,66.92:340.00,180.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Blackboard_Editor:6.53,4.09,9.93:0.00,0.00,0.00:1.00,1.00,1.00:<color=green>heal</color>|<color=red>phone number</color>|<color=yellow>22</color>
+Trigger_Box_Editor:6.45,7.70,9.73:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=22}|player{heal*200}
+Metal_Railing_Editor:121.05,98.66,13.32:0.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:59.62,37.96,8.83:20.00,90.00,90.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Block_Scalable_Editor:-52.75,-0.40,-12.24:0.00,0.00,0.00:40.00,1.00,40.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-34.25,-12.30,-12.34:0.00,0.00,90.00:40.00,1.00,40.00:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Block_Scalable_Editor:-54.06,-12.30,-32.02:90.00,180.00,0.00:40.00,1.00,40.00:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Block_Scalable_Editor:-72.65,-12.30,-12.24:0.00,0.00,90.00:40.00,1.00,40.00:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Block_Scalable_Editor:-54.06,-12.30,8.68:90.00,180.00,0.00:40.00,1.00,40.00:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Block_Scalable_Editor:-52.38,0.60,-20.71:0.00,0.00,0.00:35.00,2.50,3.00:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.25}
+Door_Elevator_Editor:-72.69,0.60,-19.50:0.00,0.00,0.00:1.40,1.00,1.00: 
+Block_Scalable_Editor:-52.75,7.60,-12.24:0.00,0.00,0.00:40.00,1.00,40.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Point_Light_Editor:-52.41,7.60,-8.10:0.00,0.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00} light{38,30,0,1}
+Block_Scalable_Editor:-42.36,0.60,-30.28:0.00,0.00,0.00:1.00,7.10,3.90:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Block_Scalable_Editor:-42.36,0.60,-23.98:0.00,0.00,0.00:1.00,7.10,3.80:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Block_Scalable_Editor:-42.36,4.60,-27.18:0.00,0.00,0.00:1.00,3.00,2.90:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Metal_Railing_Editor:-42.42,0.40,-27.10:0.00,0.00,0.00:0.40,0.90,0.30:color{0.87,0.00,0.00}
+Block_Scalable_Editor:-38.50,0.60,-22.58:0.00,90.00,0.00:0.90,7.10,6.70:color{1.00,1.00,1.00} material{Eleven_Roof,0.25}
+Money_Chunk_Editor:-35.90,0.60,-31.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-35.90,0.60,-30.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-35.90,0.60,-29.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-36.90,0.60,-30.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-36.90,0.60,-31.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-37.90,0.60,-31.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-35.90,1.60,-31.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-35.90,2.60,-31.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-36.90,1.60,-31.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Chunk_Editor:-35.90,1.60,-30.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Point_Light_Editor:-37.49,7.60,-28.24:0.00,0.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00} light{20,30,1,1}
+Money_Single_Editor:-37.76,0.60,-26.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.11,0.60,-26.80:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.46,0.60,-25.50:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-38.68,0.60,-25.63:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-39.01,0.60,-26.67:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-38.50,0.60,-27.30:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.96,0.60,-27.61:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.72,0.60,-26.76:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-38.48,0.60,-26.69:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.86,0.60,-27.22:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.30,0.60,-27.35:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.43,0.60,-27.95:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.13,0.60,-26.26:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.28,0.60,-25.80:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-37.68,0.60,-25.92:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-38.18,0.60,-25.92:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:-38.74,0.60,-26.28:0.00,0.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Editor:-72.69,2.80,-17.92:0.00,0.00,0.00:0.30,1.00,0.70:color{0.76,0.00,0.00}
+Trigger_Box_Editor:-72.55,3.32,-17.91:0.00,0.00,0.00:0.30,1.10,0.90:mode{solid}|ifcondition{role=dozd}|transform{-72.7,0.6,-19.5*-72.7,-3.3,-19.5*2}|cooldown{10}|tip{عجله کن که الان پلیسا میان!}|chat{درحال دزدی از بانک...}|cooldown{10}
+Glass_Scalable_Editor:-52.39,3.10,-20.68:0.00,0.00,0.00:34.90,4.20,3.10:color{0.51,0.58,0.60}
+Npc_Char3_Editor:-66.92,0.60,-23.46:0.00,0.00,0.00:1.00,1.00,1.00:animation{Idle}
+Npc_Char3_Editor:-61.72,0.60,-23.46:0.00,0.00,0.00:1.00,1.00,1.00:animation{Idle}
+Npc_Char3_Editor:-55.82,0.60,-23.46:0.00,0.00,0.00:1.00,1.00,1.00:animation{Idle}
+Trigger_Box_Editor:-51.24,1.90,-23.49:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|inventory{add*strongbox_key*1}|tip{کلید گاوصندوق رو گرفتی!}|draw{key}|cooldown{99}
+Npc_Char3_Editor:-49.56,0.60,-23.48:0.00,0.00,0.00:1.00,1.00,1.00:animation{Idle}
+Trigger_Box_Editor:-42.44,2.50,-27.06:0.00,0.00,0.00:3.00,4.50,3.00:mode{stay}|transform{-42.4,0.4,-27.1*-42.4,-3.7,-27.1*2*false}|executeplayer{}
+Trigger_Box_Editor:-37.69,1.50,-29.12:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|inventory{add*cash*+10000}|tip{پول رو گرفتی! حالا فرار کن!}|chat{ده هزار دلار دزدی کرد!}|header{<color=yellow>mission passed!</color>}|cooldown{99}|draw{dollar}
+Trigger_Box_Editor:-55.78,1.60,-17.65:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|inventory{add*cash*+500}|tip{500 هزار یارانه گرفتی}|chat{ کاربر از بانک پول دریافت کرد!}|cooldown{99}|draw{dollar}
+Chair_Plastic_Editor:-63.67,0.60,-5.14:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-59.77,0.60,-5.14:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-55.47,0.60,-5.14:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-51.17,0.60,-5.14:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-46.17,0.60,-5.14:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-46.17,0.60,-8.54:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-51.07,0.60,-8.54:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-55.67,0.60,-8.54:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-59.67,0.60,-8.54:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-63.67,0.60,-8.54:0.00,180.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Trigger_Box_Editor:-61.61,1.60,-18.02:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|ifcondition{inventory;cash>3000}|inventory{add*cash*-3000}|tip{پولت رو برای هزینه ساخت شهر اهدا کردی! آفرین مرد!}|chat{پول خود را برای هزینه ساخت شهر اهدا کرد!}|cooldown{30}|draw{halo1}
+Trigger_Box_Editor:-61.61,1.60,-18.02:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|ifcondition{role=admin}|inventory{add*cash*+50000}|tip{از بودجه شهر سازی پول برداشتی!}|cooldown{30}|draw{halo1}
+Door_Elevator_Editor:-46.44,0.15,10.04:0.00,0.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-45.47,1.56,6.30:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|teleport{-45.9,0.7,14.3}
+Door_Elevator_Editor:-46.44,0.15,7.64:0.00,0.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-45.47,1.16,11.30:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|teleport{-57.1,1.1,0.3}|draw{halo2}
+Door_Garage2_Editor:75.35,10.43,241.04:0.00,90.00,0.00:1.20,1.20,1.00: 
+Trigger_Box_Editor:75.28,5.02,241.23:0.00,0.00,0.00:21.00,11.00,18.00:mode{stay}|transform{75.4,10.4,241*75.4,20.6,241*4}|tip{<color=red>-50$</color>}
+Block_Scalable_Editor:-408.93,-0.90,163.43:0.00,0.00,0.00:40.00,1.10,40.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-408.93,-11.50,143.23:90.00,0.00,0.00:40.00,1.10,40.00:color{1.00,1.00,1.00} material{Concrete_Plates_Old,0.25}
+Block_Scalable_Editor:-428.93,-11.50,163.43:270.00,270.00,0.00:40.00,1.10,40.00:color{1.00,1.00,1.00} material{Concrete_Plates_Old,0.25}
+Block_Scalable_Editor:-389.73,-11.50,163.43:270.00,270.00,0.00:40.00,1.10,40.00:color{1.00,1.00,1.00} material{Concrete_Plates_Old,0.25}
+Block_Scalable_Editor:-408.93,8.10,163.43:0.00,0.00,0.00:40.00,1.10,40.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-420.47,-12.00,182.44:0.00,270.00,270.00:40.80,1.00,15.40:color{1.00,1.00,1.00} material{Concrete_Plates_Old,0.25}
+Block_Scalable_Editor:-398.37,-12.00,182.44:0.00,270.00,270.00:40.70,1.00,19.40:color{1.00,1.00,1.00} material{Concrete_Plates_Old,0.25}
+Block_Scalable_Editor:-410.37,6.30,182.44:0.00,270.00,270.00:4.20,1.00,4.80:color{1.00,1.00,1.00} material{Concrete_Plates_Old,0.25}
+Door_Editor:-408.04,0.20,183.28:0.00,180.00,0.00:1.20,1.00,1.00:color{1.00,1.00,1.00}
+Door_Editor:-412.74,0.20,183.28:0.00,0.00,0.00:1.20,1.00,1.00:color{1.00,1.00,1.00}
+Cylinder_Editor:-392.47,0.20,179.47:0.00,0.00,0.00:1.00,1.00,1.00:color{0.33,0.11,0.00}
+Cylinder_Editor:-392.50,0.20,174.50:0.00,0.00,0.00:1.00,1.00,1.00:color{0.33,0.11,0.00}
+Cylinder_Editor:-392.50,0.20,169.70:0.00,0.00,0.00:1.00,1.00,1.00:color{0.33,0.11,0.00}
+Cylinder_Editor:-392.50,0.20,164.40:0.00,0.00,0.00:1.00,1.00,1.00:color{0.33,0.11,0.00}
+Cylinder_Editor:-392.50,0.20,159.20:0.00,0.00,0.00:1.00,1.00,1.00:color{0.33,0.11,0.00}
+Tree_Palm_Editor:-392.71,0.30,179.41:0.00,0.00,0.00:0.20,0.20,0.20: 
+Tree_Palm_Editor:-392.69,0.30,174.62:0.00,0.00,0.00:0.20,0.20,0.20: 
+Tree_Palm_Editor:-392.57,0.30,169.70:0.00,0.00,0.00:0.20,0.20,0.20: 
+Tree_Palm_Editor:-392.57,0.30,164.46:0.00,0.00,0.00:0.20,0.20,0.20: 
+Tree_Palm_Editor:-392.48,0.30,159.01:0.00,0.00,0.00:0.20,0.20,0.20: 
+Carpet_Editor:-410.06,0.20,165.39:0.00,0.00,0.00:2.50,2.50,2.50:color{0.40,0.00,0.00}
+Block_Scalable_Editor:-72.54,3.57,-17.92:0.00,0.00,0.00:0.10,0.10,0.40:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,3.37,-17.72:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,3.17,-17.72:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,2.97,-17.72:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,2.97,-17.92:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,2.97,-18.12:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,3.17,-18.12:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,3.37,-18.12:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,3.37,-17.92:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-72.54,3.17,-17.92:0.00,0.00,0.00:0.10,0.10,0.10:color{1.00,1.00,1.00}
+Trigger_Box_Editor:-72.67,3.22,-20.02:0.00,0.00,0.00:0.30,1.10,0.90:mode{solid}|transform{-72.7,0.6,-19.5*-72.7,-3.3,-19.5*2}|cooldown{5}|tip{عجله کن که الان پلیسا میان!}|chat{درحال دزدی از بانک...}|cooldown{10}
+Block_Scalable_Editor:-802.67,-9.26,389.95:0.00,0.00,0.00:65.00,19.30,3.20:color{1.00,1.00,1.00} material{Brick_Small_Brown,0.15}
+Block_Scalable_Editor:-367.99,-0.50,134.30:0.00,0.00,0.00:1.00,12.60,11.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-397.94,-0.50,139.94:0.00,90.00,0.00:1.00,12.60,61.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-367.99,-0.50,85.80:0.00,0.00,0.00:1.00,12.60,11.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-398.44,-0.50,79.94:0.00,90.00,0.00:1.00,12.60,61.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-428.49,-0.50,92.30:1.00,0.00,0.00:1.00,8.10,25.20:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-428.49,5.61,110.30:0.00,0.00,0.00:1.00,6.60,61.20:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-428.49,-2.00,131.30:0.00,0.00,0.00:1.00,8.10,16.60:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-427.94,-0.50,79.94:0.00,90.00,0.00:1.00,8.10,61.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-458.50,-0.50,131.03:0.00,180.00,0.00:1.00,8.10,104.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Trigger_Box_Editor:-71.22,1.82,-21.66:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|tip{عجله کن که الان پلیسا میان!}|chat{درحال دزدی از بانک...}|cooldown{10}
+Door_Garage1_Editor:-428.46,5.67,110.32:0.00,90.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-428.50,0.71,110.44:0.00,0.00,0.00:4.90,11.30,11.50:mode{enter}|ifcondition{role=DOZD}|chat{>/color<خطر.دزد.وارد.یا.خارج.از.پارکینگ.پاسگاه.شد>color=red<}|cooldown{10}
+Block_Scalable_Editor:-428.49,-2.00,116.00:0.00,0.00,0.00:1.00,8.10,0.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-428.49,-5.90,124.50:0.00,0.00,0.00:1.00,8.10,16.60:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Window_1by1_Editor:-428.93,0.10,119.63:0.00,90.00,0.00:2.50,2.20,1.00: 
+Window_1by1_Editor:-428.03,0.10,119.63:0.00,90.00,0.00:2.50,2.20,1.00: 
+Block_Scalable_Editor:-428.49,-2.00,129.10:0.00,0.00,0.00:1.00,8.10,16.60:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-425.39,-2.00,116.00:0.00,0.00,0.00:5.90,8.10,0.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-425.39,-2.00,121.20:0.00,0.00,0.00:5.90,8.10,0.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-428.73,5.80,118.56:90.00,90.00,0.00:6.10,8.10,0.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-422.78,2.60,118.64:0.00,270.00,90.00:6.10,2.90,0.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Block_Scalable_Editor:-422.78,4.01,119.34:0.00,90.00,0.00:3.60,1.60,0.70:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Window_1by1_Editor:-422.53,-0.10,119.88:0.00,90.00,0.00:0.90,1.50,1.00: 
+Trigger_Box_Editor:-422.53,1.05,119.91:0.00,0.00,0.00:3.40,3.00,1.80:mode{stay}|transform{-422.5,-0.1,119.7*-422.5,-0.1,116.9*2*false}|executeplayer{}
+UI_Scalable_Editor:-429.05,13.25,110.42:0.00,90.00,0.00:8.70,9.50,1.00:<size=350>Police</size>
+Cylinder_Editor:-428.54,12.01,105.21:0.00,0.00,0.00:0.30,1.00,0.30:color{0.80,0.80,0.80}
+Cylinder_Editor:-428.54,12.01,115.81:0.00,0.00,0.00:0.30,1.00,0.30:color{0.80,0.80,0.80}
+Block_Scalable_Editor:-428.49,13.81,110.50:0.00,0.00,0.00:1.00,5.60,12.70:color{0.00,0.00,1.00}
+Cylinder_Editor:-450.92,7.36,79.96:0.00,0.00,0.00:0.30,1.00,0.30:color{0.80,0.80,0.80}
+Cylinder_Editor:-440.82,7.36,79.96:0.00,0.00,0.00:0.30,1.00,0.30:color{0.80,0.80,0.80}
+Block_Scalable_Editor:-445.84,9.01,79.94:0.00,90.00,0.00:1.00,5.60,12.70:color{0.00,0.00,1.00}
+UI_Scalable_Editor:-445.80,8.55,80.46:0.00,180.00,0.00:8.70,9.50,1.00:<size=350>Police</size>
+Trigger_Box_Editor:-356.67,3.09,101.73:0.00,0.00,0.00:0.10,3.00,0.50:mode{enter}|ifcondition{role=dozd}|weapon{4}|weapon{refill*4}
+Trigger_Box_Editor:-353.97,3.09,101.63:0.00,0.00,0.00:0.10,3.00,0.50:mode{enter}|ifcondition{role=dozd}|weapon{2}|weapon{refill*2}
+Trigger_Box_Editor:-353.97,3.09,99.43:0.00,0.00,0.00:0.10,3.00,0.50:mode{enter}|ifcondition{role=dozd}|weapon{1}|weapon{refill*1}
+Trigger_Box_Editor:-368.21,2.99,109.69:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{role=dozd}|chat{>/color<خطر.دزد.وارد.محل.زندان.شد>color=red<}|cooldown{10}
+Trigger_Box_Editor:-428.50,2.61,110.44:0.00,0.00,0.00:7.90,11.30,11.50:mode{stay}|transform{-428.5,7.6,110.3*-428.5,5.7,99.6*1.5*false}|executeplayer{}
+Trigger_Box_Editor:-424.33,6.85,118.63:0.00,0.00,0.00:7.00,3.20,6.00:mode{enter}|ifcondition{role=dozd}|chat{>/color<خطر.دزد.درحال.فرار.از.پاسگاه.است>color=red<}|cooldown{10}
+Metal_Railing_Editor:-190.13,24.66,101.29:0.00,180.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-190.13,24.66,89.29:0.00,180.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-190.13,24.66,77.29:0.00,180.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-199.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-211.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-223.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-235.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-247.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-259.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-271.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-283.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Metal_Railing_Editor:-295.54,24.66,76.24:0.00,90.00,270.00:1.00,0.70,1.50:color{0.87,0.87,0.87}
+Ladder_Editor:-302.39,-0.21,76.11:0.00,0.00,0.00:1.00,1.30,1.00: 
+Ladder_Editor:-293.79,-5.81,73.01:0.00,0.00,0.00:1.00,1.30,1.00: 
+Block_Scalable_Editor:-351.63,3.57,109.36:0.00,0.00,0.00:1.00,1.60,1.20:color{0.90,0.00,0.00}
+Block_Scalable_Editor:-351.73,4.81,109.36:0.00,0.00,0.00:0.90,0.20,0.90:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,4.41,109.66:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,4.41,109.36:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,4.41,109.06:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,4.11,109.06:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,3.81,109.06:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,3.81,109.36:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,3.81,109.66:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,4.11,109.66:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-351.73,4.11,109.36:0.00,0.00,0.00:0.90,0.20,0.20:color{1.00,1.00,1.00}
+Chair_Wooden_Editor:-355.33,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-356.53,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-357.73,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-358.93,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-360.13,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-361.33,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-362.53,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-363.73,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-364.93,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Chair_Wooden_Editor:-366.03,2.04,120.84:0.00,180.00,0.00:1.20,1.00,2.50: 
+Cylinder_Editor:-458.50,7.31,182.61:0.00,0.00,0.00:0.30,1.00,0.30:color{0.80,0.80,0.80}
+Block_Scalable_Editor:-458.48,9.01,177.63:0.00,0.00,0.00:1.00,5.60,12.70:color{0.00,0.00,1.00}
+Cylinder_Editor:-458.50,7.31,172.71:0.00,0.00,0.00:0.30,1.00,0.30:color{0.80,0.80,0.80}
+UI_Scalable_Editor:-457.95,8.55,177.63:0.00,270.00,0.00:8.70,9.50,1.00:<size=350>Police</size>
+Building2_Editor:-314.82,0.90,109.75:0.00,90.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-325.48,1.93,105.34:0.00,270.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-325.48,1.93,101.54:0.00,270.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-325.48,1.93,97.74:0.00,270.00,0.00:1.00,1.00,1.00: 
+FuseBox_Editor:-325.48,1.93,93.94:0.00,270.00,0.00:1.00,1.00,1.00: 
+Pipe_Rusty_Editor:-317.07,7.19,106.81:0.00,0.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00} material{Metal_Rusted_Tile,0.01}
+Pipe_Rusty_Editor:-297.36,7.19,106.81:0.00,0.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00} material{Metal_Rusted_Tile,0.01}
+Door_Garage1_Editor:-314.44,12.49,91.22:0.00,0.00,0.00:1.00,1.90,1.00: 
+Trigger_Box_Editor:-314.85,3.13,91.25:0.00,0.00,0.00:8.80,10.30,3.90:mode{stay}|transform{-314.4,12.5,91.3*-314.4,19.7,91.3*1*false}|executeplayer{}|sound{MechanicalMovement1*1*50}
+Trigger_Box_Editor:15.98,28.37,-27.65:0.00,0.00,0.00:0.90,3.00,0.90:mode{enter}|draw{weapon2}|weapon{2}|weapon{refill*2}|cooldown{60}
+Block_Scalable_Editor:11.24,0.05,83.06:0.00,0.00,180.00:169.50,3.00,239.00:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:-129.79,0.05,244.87:0.00,0.00,180.00:169.50,3.00,239.00:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:-299.29,0.05,244.87:0.00,0.00,180.00:169.50,3.00,239.00:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:38.78,0.05,311.10:0.00,0.00,180.00:169.50,3.00,239.00:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Building2_Editor:103.66,0.73,293.01:0.00,180.00,0.00:1.70,1.10,1.10: 
+Block_Scalable_Editor:72.76,1.99,295.07:0.00,0.00,0.00:0.10,4.70,0.30:color{1.00,1.00,1.00}
+Block_Scalable_Editor:72.76,1.99,290.97:0.00,0.00,0.00:0.10,4.70,0.30:color{1.00,1.00,1.00}
+Block_Scalable_Editor:72.76,6.59,295.17:90.00,180.00,0.00:0.10,4.30,0.30:color{1.00,1.00,1.00}
+Block_Scalable_Editor:116.52,0.01,116.21:0.00,270.00,90.00:0.10,18.00,46.00:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:88.15,-3.23,279.78:0.00,0.00,0.00:31.50,17.00,1.00:color{1.00,1.00,1.00} material{Wood_Parquet_Herringbone,0.25}
+Block_Scalable_Editor:88.15,-3.23,306.28:0.00,0.00,0.00:31.50,17.00,1.00:color{1.00,1.00,1.00} material{Wood_Parquet_Herringbone,0.25}
+Block_Scalable_Editor:100.28,1.42,292.66:0.00,0.00,0.00:1.00,12.00,33.00:color{1.00,1.00,1.00} material{Wood_Parquet_Herringbone,0.25}
+Block_Scalable_Editor:72.83,2.04,302.21:0.00,0.00,0.00:0.10,12.00,8.50:color{1.00,1.00,1.00} material{Wood_Parquet_Herringbone,0.25}
+Block_Scalable_Editor:72.83,2.04,283.71:0.00,0.00,0.00:0.10,12.00,8.50:color{1.00,1.00,1.00} material{Wood_Parquet_Herringbone,0.25}
+Block_Scalable_Editor:87.61,12.84,297.54:0.00,0.00,0.00:29.80,1.00,37.50:color{1.00,1.00,1.00} material{Wood_Parquet_Herringbone,0.25}
+Block_Scalable_Editor:87.61,1.14,297.54:0.00,0.00,0.00:29.80,1.00,37.50:color{1.00,1.00,1.00} material{Wood_Parquet_Herringbone,0.25}
+Block_Scalable_Editor:92.74,1.14,295.54:0.00,0.00,0.00:2.10,2.90,22.20:color{1.00,1.00,1.00} material{Wood_Parquet_Strip,0.25}
+Block_Scalable_Editor:92.74,3.84,295.64:0.00,0.00,0.00:2.80,0.30,23.30:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.25}
+Table_Wooden_Editor:87.65,2.05,303.06:0.00,90.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:89.34,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:87.74,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:86.14,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Table_Wooden_Editor:81.35,2.05,303.06:0.00,90.00,0.00:1.00,1.00,1.00: 
+Table_Wooden_Editor:75.25,2.05,303.06:0.00,90.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:82.84,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:79.54,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:81.14,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:76.84,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:73.44,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:75.14,2.10,305.09:0.00,180.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:89.34,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:87.74,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:86.14,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:82.84,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:81.24,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:79.74,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:76.74,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:75.14,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Chair_Wooden_Editor:73.54,2.10,301.29:0.00,0.00,0.00:1.00,1.00,1.00: 
+Refrigerator_Editor:96.95,1.95,304.96:0.00,180.00,0.00:1.40,1.40,1.00:color{0.91,0.91,0.91}
+Refrigerator_Editor:74.60,2.15,281.08:0.00,0.00,0.00:1.00,1.00,1.00:color{0.91,0.91,0.91}
+Refrigerator_Editor:78.10,2.15,281.08:0.00,0.00,0.00:1.00,1.00,1.00:color{0.91,0.91,0.91}
+Radio_Editor:79.00,6.46,281.63:0.00,13.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Editor:92.82,3.44,301.87:0.00,0.00,346.00:1.60,1.10,1.30:color{1.00,1.00,1.00}
+Block_Scalable_Editor:92.22,4.54,301.87:0.00,0.00,292.00:1.60,0.40,1.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.06,4.94,301.87:0.00,0.00,292.00:0.50,0.40,1.10:color{1.00,1.00,1.00}
+Block_Scalable_Editor:93.42,3.34,302.27:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.42,3.34,302.07:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.42,3.34,301.87:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.42,3.34,301.57:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.42,3.34,301.37:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.12,3.44,301.37:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.12,3.44,301.67:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.12,3.44,301.97:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:93.12,3.44,302.27:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.82,3.54,302.27:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.82,3.54,301.97:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.82,3.54,301.67:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.82,3.54,301.37:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.52,3.64,301.37:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.52,3.64,301.67:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.52,3.64,301.97:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Block_Scalable_Editor:92.52,3.64,302.27:0.00,0.00,346.00:0.20,1.10,0.20:color{0.00,0.00,0.00}
+Trigger_Box_Editor:95.14,3.24,302.51:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|ifcondition{role=dozd}|draw{dollar}|draw{halo1}|inventory{add*cash*+1000}|tip{هزار دلار دزدی کردی}|chat{هزار دلار از کافه دزدی کرد}|cooldown{99}
+Cylinder_Editor:88.92,3.45,302.96:0.00,0.00,0.00:0.10,0.30,0.10:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.10}
+Sphere_Editor:88.93,4.15,302.96:0.00,0.00,0.00:0.40,0.40,0.40:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.10}
+Cylinder_Editor:88.92,3.95,302.96:0.00,0.00,0.00:0.10,0.40,0.10:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.10}
+Bowl_Editor:88.91,4.65,302.96:0.00,0.00,0.00:0.60,0.60,0.60:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.10}
+Bowl_Editor:88.91,3.75,302.96:0.00,0.00,180.00:0.60,0.60,0.60:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.10}
+Steam_Smoke_Editor:89.43,-3.75,301.90:319.00,0.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+StreetLight_Editor:89.22,4.45,302.07:356.00,255.00,251.00:7.10,6.60,7.10:color{1.00,0.50,0.00}
+Bottle_Wine_Editor:86.97,3.66,303.04:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:85.85,3.66,303.59:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:85.67,3.66,302.67:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:80.91,3.66,303.72:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:82.19,3.66,303.23:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:83.19,3.66,303.75:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:80.65,3.66,302.54:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:81.06,3.66,303.11:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:79.82,3.66,303.33:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:77.14,3.66,303.43:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:76.23,3.66,302.63:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:75.29,3.66,303.63:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:73.90,3.66,302.75:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:75.31,3.66,302.44:0.00,0.00,0.00:1.00,1.00,1.00: 
+Bottle_Wine_Editor:74.23,3.66,303.47:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:88.23,3.65,303.11:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:87.13,3.65,303.50:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:87.78,3.65,302.45:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:86.39,3.65,302.48:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:85.81,3.65,303.11:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:80.51,3.65,303.24:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:79.84,3.65,302.62:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:81.39,3.65,302.73:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:83.02,3.65,303.06:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:82.99,3.65,302.60:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:75.49,3.65,303.21:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:74.81,3.65,302.77:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:74.26,3.65,302.32:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:73.39,3.65,302.39:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:74.65,3.65,303.52:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:73.36,3.65,303.54:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:77.04,3.65,302.54:0.00,0.00,0.00:1.00,1.00,1.00: 
+Money_Single_Editor:76.33,3.65,303.59:0.00,0.00,0.00:1.00,1.00,1.00: 
+Npc_Ped2_Editor:95.28,2.14,297.50:0.00,270.00,0.00:1.00,1.00,1.00:animation{Idle}
+Trigger_Box_Editor:10.53,2.39,-4.90:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=taxi}|inventory{add*cash*+50}|tip{>/color<حقوقت.رو.گرفتی>color=yellow<}|cooldown{60}
+Trigger_Box_Editor:10.53,5.39,-4.90:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=police}|inventory{add*cash*+50}|tip{>/color<حقوقت.رو.گرفتی>color=blue<}|cooldown{60}
+Trigger_Box_Editor:10.53,8.49,-4.90:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=doctor}|inventory{add*cash*+50}|tip{>/color<حقوقت.رو.گرفتی>color=green<}|cooldown{60}
+Trigger_Box_Editor:10.53,11.49,-4.90:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=mechanic}|inventory{add*cash*+50}|tip{>/color<حقوقت.رو.گرفتی>color=orange<}|cooldown{60}
+Spotlight_Editor:99.68,12.77,280.49:14.00,307.00,359.00:1.00,1.00,1.00:color{1.00,1.00,1.00} light{100,179,1,1}
+Block_Scalable_Editor:-0.07,0.29,1.54:0.00,0.00,0.00:25.30,1.00,17.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.20}
+Block_Scalable_Editor:-0.07,3.89,-5.96:90.00,180.00,0.00:25.30,1.00,17.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.20}
+Block_Scalable_Editor:11.75,3.89,-2.49:90.00,90.00,0.00:25.30,1.00,17.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.20}
+Block_Scalable_Editor:-12.35,3.89,-2.49:90.00,90.00,0.00:25.30,1.00,17.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.20}
+Block_Scalable_Editor:-0.07,11.09,1.54:0.00,0.00,0.00:25.30,1.00,17.00:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.20}
+Block_Scalable_Editor:8.47,1.29,9.97:0.00,0.00,0.00:7.30,10.40,0.10:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-8.13,1.29,9.97:0.00,0.00,0.00:7.30,10.40,0.10:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-428.49,-2.00,156.80:0.00,0.00,0.00:1.00,11.70,53.20:color{1.00,1.00,1.00} material{Brick_Large_Blocks,0.23}
+Ladder_Editor:-367.52,-10.80,85.86:0.00,270.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:95.14,3.24,302.51:0.00,0.00,0.00:1.00,3.00,1.00:mode{enter}|tip{فقط دزد میتواند دزدی کند!}
+Trigger_Box_Editor:-72.65,3.32,-17.91:0.00,0.00,0.00:0.40,1.30,1.10:mode{solid}|tip{فقط دزد میتواند دزدی کند!}
+Trigger_Box_Editor:-28.35,1.15,-10.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=**9797#1#}|inventory{add*cash*+1000000}|draw{dollar}|chat{<color=green>+1000000$</color>}
+Block_Scalable_Editor:-469.09,0.05,150.76:0.00,0.00,180.00:169.50,3.00,239.00:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:-504.87,0.05,131.25:0.00,0.00,180.00:96.00,1.60,112.50:color{0.59,0.59,0.58} material{Brick_Large_Blocks,0.15}
+Block_Scalable_Editor:-443.37,-0.85,137.02:0.00,0.00,0.00:29.30,1.00,119.90:color{1.00,1.00,1.00} material{Road_Street_4k_V,0.14}
+Block_Scalable_Editor:-586.89,-0.85,187.26:0.00,0.00,0.00:66.40,1.00,19.40:color{1.00,1.00,1.00} material{Road_Street_4k,0.01}
+Metal_Railing_Editor:-553.48,-0.35,190.26:0.00,0.00,0.00:2.00,1.40,1.70:color{0.87,0.87,0.87}
+Alarm_Light_Editor:-553.55,6.55,183.44:0.00,0.00,0.00:1.00,1.00,1.00: 
+Alarm_Light_Editor:-553.53,6.55,197.05:0.00,0.00,0.00:1.00,1.00,1.00: 
+Parking_Editor:-653.04,1.67,129.21:0.00,0.00,0.00:1.00,1.00,1.00: 
+Building7_Editor:-762.98,0.35,146.47:0.00,0.00,0.00:1.00,1.00,1.00: 
+Ladder_Editor:-572.92,29.67,181.67:0.00,90.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:10.53,17.49,-4.90:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=POLICEFBI}|inventory{add*cash*+100}|tip{>/color<حقوقت.رو.گرفتی>color=cyan<}|cooldown{60}
+Entrance_Tire_Editor:-770.40,0.09,361.88:0.00,90.00,0.00:1.20,1.20,1.20: 
+Door_Garage1_Editor:-770.36,17.05,361.78:0.00,90.00,0.00:2.40,2.00,1.00: 
+Container_Open_Editor:-831.41,0.09,347.66:0.00,90.00,0.00:2.30,1.70,2.10: 
+Block_Scalable_Editor:-825.37,-0.58,347.63:0.00,0.00,0.00:21.60,1.00,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-825.37,8.82,347.63:0.00,0.00,0.00:21.60,0.30,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-825.37,2.92,340.63:90.00,0.00,0.00:21.60,1.00,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-825.37,2.92,353.63:90.00,0.00,0.00:21.60,0.10,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-834.46,2.92,342.95:90.00,270.00,0.00:21.60,0.10,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Table_Plastic_Editor:-830.41,0.42,343.75:0.00,0.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Block_Scalable_Editor:-832.97,-0.48,342.93:0.00,0.00,0.00:0.90,1.00,3.40:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-833.97,-0.48,342.93:0.00,0.00,0.00:1.20,1.40,3.40:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Chair_Plastic_Editor:-833.59,0.42,346.90:0.00,126.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Chair_Plastic_Editor:-825.15,0.42,343.28:0.00,316.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Refrigerator_Editor:-833.68,0.42,351.30:0.00,90.00,0.00:1.00,1.00,1.00:color{0.91,0.91,0.91}
+Radio_Editor:-833.34,4.72,350.44:0.00,130.00,0.00:1.00,1.00,1.00: 
+Chair_Plastic_Editor:-829.62,0.42,345.47:0.00,184.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Car_Wreck_Editor:-827.94,0.09,378.17:0.00,130.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Car_Wreck_Editor:-828.26,0.09,370.73:0.00,80.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Car_Wreck_Editor:-831.61,0.09,375.11:0.00,110.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Car_Wreck_Editor:-831.70,2.79,371.96:0.00,335.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Car_Wreck_Editor:-829.71,2.09,375.78:24.00,130.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Car_Wreck_Editor:-823.89,1.30,379.56:337.00,244.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Cup_Coffee_Editor:-833.41,2.12,345.22:0.00,0.00,0.00:1.00,1.00,1.00: 
+Cup_Coffee_Editor:-826.88,2.12,343.51:0.00,0.00,0.00:1.00,1.00,1.00: 
+Cup_Coffee_Editor:-829.49,2.12,345.57:0.00,0.00,0.00:1.00,1.00,1.00: 
+Counter_Editor:-821.84,1.02,342.57:0.00,0.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80}
+Sink_Editor:-821.84,2.02,342.48:0.00,0.00,0.00:1.00,0.90,1.10:color{1.00,1.00,1.00}
+Stove_Editor:-818.84,0.33,342.57:0.00,0.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Block_Scalable_Editor:-814.56,2.92,335.25:90.00,270.00,0.00:21.10,0.10,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Block_Scalable_Editor:-814.56,2.92,351.75:90.00,270.00,0.00:3.90,0.10,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Window_1by1_Editor:-814.62,0.42,348.76:0.00,90.00,0.00:0.70,1.50,1.00: 
+Window_1by1_Editor:-814.62,0.42,346.86:0.00,90.00,0.00:0.70,1.50,1.00: 
+Block_Scalable_Editor:-814.56,6.92,346.95:0.00,0.00,90.00:4.10,0.10,12.30:color{1.00,1.00,1.00} material{Wood_Parquet_Strip6,0.25}
+Trigger_Box_Editor:-814.62,2.47,347.75:0.00,0.00,0.00:3.00,4.80,3.80:mode{stay}|transform{-814.6,0.4,348.8*-814.6,0.4,350.8*2*false}|executeplayer{}
+Trigger_Box_Editor:-814.62,2.47,347.75:0.00,0.00,0.00:3.00,4.80,3.80:mode{stay}|transform{-814.6,0.4,346.9*-814.6,0.4,344.8*2*false}|executeplayer{}
+Block_Scalable_Editor:-724.73,-1.15,684.67:0.00,90.00,0.00:695.50,1.00,91.20:color{1.00,1.00,1.00}
+Blackboard_Big_Editor:-834.71,5.19,362.42:0.00,270.00,0.00:1.00,1.00,1.00:<color=green>$50$</color>
+Block_Scalable_Editor:-597.80,0.05,331.82:0.00,0.00,180.00:187.00,1.60,146.00:color{0.59,0.59,0.58} material{Grass_Field,0.31}
+Chair_Wooden_Editor:-575.08,0.01,318.19:0.00,270.00,0.00:4.30,0.90,1.10: 
+Chair_Wooden_Editor:-574.87,0.01,301.56:0.00,270.00,0.00:4.30,0.90,1.10: 
+Metal_Railing_Editor:-665.86,-0.33,305.62:0.00,330.00,0.00:1.30,1.50,1.30:color{0.87,0.87,0.87}
+Entrance_Tire_Editor:-504.24,0.15,337.08:0.00,90.00,0.00:0.50,0.50,0.50: 
+Block_Scalable_Editor:-836.07,-9.26,387.51:0.00,90.00,0.00:8.50,19.30,3.20:color{1.00,1.00,1.00} material{Brick_Small_Brown,0.15}
+Block_Scalable_Editor:-836.07,10.04,387.51:0.00,90.00,0.00:8.50,2.00,3.20:color{1.00,1.00,1.00} material{Brick_Small_Dirty,0.06}
+Block_Scalable_Editor:-802.77,10.04,389.91:0.00,180.00,0.00:65.30,2.00,3.20:color{1.00,1.00,1.00} material{Brick_Small_Dirty,0.06}
+Trigger_Box_Editor:83.06,14.22,126.31:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{weapon2}|weapon{2}|weapon{refill*2}|cooldown{60}
+Spotlight_Editor:-814.56,4.99,347.80:89.00,270.00,180.00:1.00,1.00,1.00:color{1.00,0.00,0.00} light{0,1,0,1}
+Cylinder_Editor:-725.38,-0.74,251.77:0.00,0.00,0.00:37.00,1.50,37.00:color{0.80,0.80,0.80} material{Wood_Parquet_Strip6,0.02}
+Cylinder_Editor:-725.38,-0.24,251.77:0.00,0.00,0.00:36.50,1.50,36.50:color{0.80,0.80,0.80} material{Grass_Field,0.02}
+StreetLight_Traffic_Editor:-693.82,2.76,264.54:0.00,91.00,0.00:1.50,1.50,1.50:color{1.00,0.43,0.07}
+StreetLight_Traffic_Editor:-749.42,2.76,275.74:0.00,0.00,0.00:1.50,1.50,1.50:color{1.00,0.43,0.07}
+StreetLight_Traffic_Editor:-768.82,2.76,180.44:0.00,270.00,0.00:1.50,1.50,1.50:color{1.00,0.43,0.07}
+Building18_Editor:-810.88,0.00,161.24:0.00,0.00,0.00:0.80,0.80,0.80: 
+Building18_Editor:-850.63,0.00,161.24:0.00,0.00,0.00:0.80,0.80,0.80: 
+Building18_Editor:-872.55,0.00,286.15:0.00,0.00,0.00:0.80,0.80,0.80: 
+Tree_Poplar_Editor:-725.31,2.76,251.30:0.00,0.00,0.00:2.00,2.00,2.00: 
+StreetLight_Traffic_Editor:-749.42,2.76,227.74:0.00,269.50,0.00:1.50,1.50,1.50:color{1.00,0.43,0.07}
+StreetLight_Traffic_Editor:-701.17,2.76,228.14:0.00,178.50,0.00:1.50,1.50,1.50:color{1.00,0.43,0.07}
+Building1_Editor:-785.85,-0.25,455.40:0.00,180.00,0.00:1.00,1.00,1.00: 
+Building1_Editor:-785.85,-0.25,412.35:0.00,180.00,0.00:1.00,1.00,1.00: 
+Building1_Editor:-785.85,-0.25,498.40:0.00,180.00,0.00:1.00,1.00,1.00: 
+Building1_Editor:-785.85,-0.25,541.40:0.00,180.00,0.00:1.00,1.00,1.00: 
+Building9_Editor:-957.98,-0.34,223.04:0.00,90.00,0.00:1.00,1.00,1.00: 
+Building18_Editor:-912.05,0.00,286.15:0.00,0.00,0.00:0.80,0.80,0.80: 
+Building18_Editor:-890.13,0.00,161.24:0.00,0.00,0.00:0.80,0.80,0.80: 
+Building18_Editor:-929.13,0.00,161.24:0.00,0.00,0.00:0.80,0.80,0.80: 
+Building12_Editor:-712.79,0.15,626.41:0.00,90.00,0.00:1.00,1.00,1.00: 
+Car_Wreck_Editor:-782.19,-0.40,310.88:0.00,25.00,0.00:1.00,1.00,1.00:color{1.00,1.00,1.00}
+Blackboard_Editor:10.23,4.09,9.93:0.00,0.00,0.00:1.00,1.00,1.00:<color=green>kahesh</color>|<color=red>lag/bug</color>|<color=yellow>©   ®
+Block_Scalable_Editor:-726.01,-0.85,475.96:0.00,180.00,0.00:93.00,1.00,233.90:color{0.55,0.55,0.55} material{Brick_Large_Blocks,0.12}
+Trigger_Box_Editor:-368.01,9.39,109.79:0.00,0.00,0.00:0.10,6.00,9.80:mode{solid}|player{damage*100}|cooldown{10}
+Trigger_Box_Editor:-368.01,3.89,113.19:0.00,0.00,0.00:0.10,5.40,2.60:mode{solid}|player{damage*100}|cooldown{10}
+Trigger_Box_Editor:-368.01,3.89,106.49:0.00,0.00,0.00:0.10,5.40,2.60:mode{solid}|player{damage*100}|cooldown{10}
+Trigger_Box_Editor:-362.14,4.39,114.76:0.00,90.00,0.00:0.10,16.10,12.20:mode{solid}|player{damage*100}|cooldown{10}
+Trigger_Box_Editor:595.34,1.05,669.26:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=*2525#25#}|player{role*admin}|chat{>/color<کاربر.ادمین.شد>color=red<}
+Spawn_Point_Editor:0.05,1.29,1.44:0.00,0.00,0.00:1.00,1.00,1.00: 
+
