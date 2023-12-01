@@ -1,0 +1,16 @@
+#place config in /root/.config/unity3d/MA/LAC/ServerConfig.txt
+#place maps in   /root/.config/unity3d/MA/LAC/editor/myMap.txt
+
+(Basic)
+restart timer=never
+max players=16
+map name=editor:myMap
+starting port=7777
+
+(Server List)
+server language=English
+server password=none
+
+(Roleplay)
+username=HOST
+password=0000
