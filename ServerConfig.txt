@@ -2,14 +2,14 @@
 #place maps in   /root/.config/unity3d/MA/LAC/editor/myMap.txt
 
 (Basic)
-restart timer=never
-max players=16
-map name=editor:myMap
+restart timer=1800
+max players=30
+map name=editor:رمز در روبیکا و تل آیدی @cafe_lac
 starting port=7777
 
 (Server List)
-server language=English
-server password=none
+server language=Farsi
+server password=LaQvie[@874sd
 
 (Roleplay)
 username=HOST
